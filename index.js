@@ -24,7 +24,7 @@ app.use(express.json())
 app.use(helmet())
 app.use(cookieParser())
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://safernet-gamma.vercel.app', 'https://llegal.vercel.app']
+    origin: ['http://localhost:5173', 'https://safernet-gamma.vercel.app', 'https://llegal.vercel.app', https://thebanka.vercel.app]
 }))
 app.use(rateLimit({
     max: 300,
